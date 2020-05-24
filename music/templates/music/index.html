@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music home page</title>
+</head>
+<body>
+{%if all_albums%}
+<h1>Shit dude!</h1>
+{% endif %}
+<h2>Here are all my albums</h2>
+<ul>
+    {% for album in all_albums %}
+    <li>
+        <a href="{{album.id}}/">{{album.album_title}}</a>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

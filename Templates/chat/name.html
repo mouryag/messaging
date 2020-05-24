@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrypoint</title>
+</head>
+<body>
+<h2> Enter name and go to chatroom</h2>
+<form action="{% url 'enter' %}" method="post">
+    <input type="text" name="name" placeholder="Enter here">
+    <input type="submit" value="enter">
+</form>
+</body>
+</html>

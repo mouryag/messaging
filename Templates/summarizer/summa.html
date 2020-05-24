@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+		<!-- Site Title -->
+        <title>Summarizer to make an automatic text summary online</title>
+
+        <!-- Site Meta Info -->
+        <meta charset="utf-8">
+        <link rel="alternate" href="https://resoomer.com/" hreflang="fr" />
+        <link rel="alternate" href="https://resoomer.com/en/" hreflang="en" />
+        <link rel="alternate" href="https://resoomer.com/it/" hreflang="it" />
+        <link rel="alternate" href="https://resoomer.com/de/" hreflang="de" />
+        <link rel="alternate" href="https://resoomer.com/es/" hreflang="es" />
+        <link rel="alternate" href="https://resoomer.com/vi/" hreflang="vi" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Resoomer is a software and online tool for text summary: it allows you to summarize and analyze your articles by taking up the important concepts">
+
+        <meta name="theme-color" content="#ff5959">
+        <meta name="msapplication-navbutton-color" content="#ff5959">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#ff5959">
+
+        <meta name="author" content="Resoomer">
+        <link href="https://plus.google.com/102920282341875856642" rel="publisher" />
+		<meta name="copyright" content="© Resoomer">
+		<!--<meta http-equiv="content-language" content="fr-FR">-->
+    	<meta property="og:site_name" content="Resoomer"/>
+		<meta property="og:locale" content="en"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Resoomer | Summarizer to make an automatic text summary online"/>
+		<meta property="og:description" content="Resoomer is a software and online tool for text summary: it allows you to summarize and analyze your articles by taking up the important concepts"/>
+        <meta property="og:image" content="https://resoomer.com/img/resoomer-logo-simple.png"/>
+		<meta http-equiv="pragma" content="no-cache">
+
+        <meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@resoomer_">
+		<meta name="twitter:title" content="Resoomer | Summarizer to make an automatic text summary online">
+		<meta name="twitter:description" content="Resoomer is a software and online tool for text summary: it allows you to summarize and analyze your articles by taking up the important concepts">
+		<meta name="twitter:creator" content="@resoomer_">
+		<meta name="twitter:domain" content="resoomer.com">
+        <meta name="google-site-verification" content="xhvZanSGPYF44NNRBZADPN_0TdrDYQy0W_8Yqu8LlRo" />
+        <!--<link rel="image_src" href="https://resoomer.com/themes/effacy/img/fb_pic.jpg" />-->
+        <link rel="image_src" href="https://resoomer.com/img/resoomer-logo-simple.png" />
+        <!-- Essential CSS Files -->
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/normalize.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/animate.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/simplelightbox.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/owl.theme.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/style.min.css">
+
+        <!-- Color Styles | To Chage the color simply remove all the stylesheet form bellow without the color you want to keep -->
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/colors/default-color.min.css">
+
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/responsive.min.css">
+
+        <!-- Google Web Fonts =:= Raleway , Montserrat and Roboto -->
+		<link href="https://resoomer.com/themes/effacy/css/Raleway.400.500.600.700.min.css" rel="stylesheet" type="text/css">
+        <link href="https://resoomer.com/themes/effacy/css/Montserrat.700.400.min.css" rel="stylesheet" type="text/css">
+        <link href="https://resoomer.com/themes/effacy/css/Roboto.700.500.400.min.css" rel="stylesheet" type="text/css">
+
+        <!-- CUSTOM TEMPLATE -->
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/jquery-ui-1.12.1.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/custom.min.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/custom.mobile.view.css">
+        <link rel="stylesheet" href="https://resoomer.com/themes/effacy/css/toolTip.min.css">
+
+        <!-- Essential JS Files -->
+        <script src="https://resoomer.com/themes/effacy/js/sampleTexts.js"></script>
+                <script type="text/javascript">
+        	langSite = 'en';
+			SampleText = SampleText_EN;
+			urlAPI	= 'https://resoomer.com/';
+			limit_char_transfert = 10000;
+			max_char_post = 200000;
+			issetPost = 0			// Premium Pricing
+			PremiumMensuel_FullPrice	 		= 4.9;
+			PremiumMensuel_Trunc	 			= 4;
+			PremiumMensuel_Cents	 			= 90;
+
+			PremiumTrimestriel_FullPrice	 	= 12.9;
+			PremiumTrimestriel_Trunc	 		= 12;
+			PremiumTrimestriel_Cents	 		= 90;
+
+			PremiumAnnuel_FullPrice	 		= 39.9;
+			PremiumAnnuel_Trunc	 			= 39;
+			PremiumAnnuel_Cents	 			= 90;
+
+			/////////////////////////////////////////
+			// API Pricing
+			WebserviceBasic	 				= 0;
+
+			WebservicePro_FullPrice	 		= 29;
+			WebservicePro_Trunc	 			= 29;
+			WebservicePro_Cents	 			= 0;
+
+			WebservicePro_3mois_FullPrice	 	= 79;
+			WebservicePro_3mois_Trunc	 		= 79;
+			WebservicePro_3mois_Cents	 		= 0;
+
+			WebservicePro_1an_FullPrice	 	= 299;
+			WebservicePro_1an_Trunc	 		= 299;
+			WebservicePro_1an_Cents	 		= 0;
+
+			WebserviceUltra_FullPrice	 		= 89;
+			WebserviceUltra_Trunc	 			= 89;
+			WebserviceUltra_Cents	 			= 0;
+
+			WebserviceUltra_3mois_FullPrice	= 249;
+			WebserviceUltra_3mois_Trunc	 	= 249;
+			WebserviceUltra_3mois_Cents	 	= 0;
+
+			WebserviceUltra_1an_FullPrice	 	= 899;
+			WebserviceUltra_1an_Trunc	 		= 899;
+			WebserviceUltra_1an_Cents	 		= 0;
+        </script>
+        <script src="https://resoomer.com/themes/effacy/js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="https://resoomer.com/themes/effacy/js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- ADS -->
+        <script src="https://resoomer.com/themes/effacy/js/ads.js"></script>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="ErrorLoadAdsGoogle()"></script>
+                <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script type="text/javascript">
+        	function onReCaptchaValid(token) {
+			 document.getElementById("contactForm").submit();
+		   	}
+		</script>
+        <script type="text/javascript">
+			adBlockerDetect = 0;
+			divADS			= '#adsContent';
+			var isChromium = window.chrome,
+				isOpera = window.navigator.userAgent.indexOf("OPR") > -1 || window.navigator.userAgent.indexOf("Opera") > -1;
+			if(isChromium !== null && isOpera == true) {
+			   OperaBrowser = true;
+			} else {
+			   OperaBrowser = false;
+			}
+						if(window.canRunAds === undefined){
+				adBlockerDetect = 1;
+			}
+			//////////////////////////////////////////////////////
+			if(navigator.userAgent.indexOf("Firefox") != -1 )	{
+				adBlockerDetect = 0;
+			}
+			if(OperaBrowser == true)	{
+				adBlockerDetect = 0;
+			}
+					</script>
+
+        <!-- IE9 Scripts -->
+        <!--[if lt IE 9]>
+        <script src="https://resoomer.com/themes/effacy/js/html5shiv.min.js"></script>
+        <script src="https://resoomer.com/themes/effacy/js/respond.min.js"></script>
+        <![endif]-->
+
+
+    </head>    <body>
+
+
+    <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Heaser Area Start -->
+    <header class="header-area">
+        <!-- Navigation start -->
+        <nav class="navbar navbar-custom tb-nav" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tb-nav-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo page-scroll" href="#top"><h2 style="color:blue">Summ<span style="color:green">a</span>rizer</h2></a>
+              </div>
+
+              <div class="collapse navbar-collapse" id="tb-nav-collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                	                    <!--<li class="active"><a class="page-scroll" href="#top"><b>OO</b></a></li>-->
+                    <li><a class="page-scroll" href="#professionnel" title="Service">Service</a></li>
+                    <li><a class="page-scroll" href="#extension" title="Extensions">Extensions</a></li>
+                    <li><a class="page-scroll" href="#useIt" title="How does it work ?">How does it work ?</a></li>
+                    <li><a class="page-scroll" href="#entreprise" title="PREMIUM">PREMIUM</a></li>
+                   	<li><a class="page-scroll" href="#contact" title="Contact us">Contact</a></li>
+                    <li><a href="https://resoomer.com/en/login/" title="Login">Login</a></li>
+                    <!--<li><a href="https://resoomer.com/blog-en/" title="Blog">Blog</a></li>-->
+                    <li class="hideForMolie">
+                    	<a href="#" onClick="return false;" id="conteneurSelectLang">
+                            <select id="selectChangeLang" class="selectChangeLang" onChange="changeLang(this);"><option value="EN" selected="selected">English</option><option value="FR">Français</option><option value="ES">Español</option><option value="DE">Deutsch</option><option value="IT">Italiano</option><option value="VI">Tiếng Việt</option></select>                        </a>
+                    </li>
+                    <li class="DisplayNone"><a href="https://resoomer.com/developers/" title="Developers">Developers</a></li>
+                                    </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+        <!-- Navigation end -->
+
+        <!-- hero-section -->
+        <section class="hero-section static-bg" id="top" style="height:auto !important;">
+                <div class="container-fluid" style="float:left; width:100%;">
+                	<div class="row" id="headerFeature">
+                    	<!-- Hero Title -->
+                        <h1 class="fontLight">
+                        	Got a lot of text to read, summarize them <span style="color:green"> relevantly </span>
+                        </h1>
+                        <!-- Hero Subtitle -->
+                        <!--<h5>we advice + we design + we develope</h5>-->
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 no-padding">
+                            <div class="about-us-left no-padding">
+                                <form id="resoomerForm" class="resoomerForm" method="POST" action="{% url 'two' %}">
+                                    {% csrf_token %}
+                                    <fieldset class="resoomerFormConteneur">
+                                        <div class="conteneurAPI">
+
+                                            <div class="OptionsMobileView">
+                                            	<div class="topConteneurAPI">
+                                                	<p>
+                                                        <a onClick="setExemple(); return false;" href="#" title="Display a text example" class="formatResoomer" style="float:left;">Text example</a>
+                                                        <a onClick="clearTextarea(); return false;" href="#" title="Clear text" class="formatResoomer" style="float:right; margin-right:5px;">Delete text</a>
+                                                    </p>
+                                                    <p style="clear:both;">&nbsp;</p>
+                                                </div>
+                                            </div>
+                                                                                        <textarea id="contentText" name="contentText" placeholder="Copy and paste here your text or the URL of your text." onKeyUp="textAreaAdjust(this)" style="overflow:hidden">{{k}}</textarea>
+
+                                            <div class="OptionsMobileView">
+                                            	<p>
+                                            		<input type="button" id="btnSendText_V2_Mobile" class="btnSendText" value="Resoomer" style="width:97%;">
+                                                </p>
+                                                                                                <p style="text-align:center;"></p>
+                                                                                            </div>
+                                            <div class="OptionsWebView">
+                                                <div class="topConteneurAPI">
+                                                    <ul class="optionsAPI">
+                                                        <li class="li_1">
+                                                            <a onClick="setExemple(); return false;" href="#" title="Display a text example" class="formatResoomer">Text example</a>
+                                                             &nbsp;
+                                                            <span class="DisplayForMobile"><br /></span>
+                                                            <a onClick="clearTextarea(); return false;" href="#" title="Clear text" class="formatResoomer">Delete text</a>
+                                                                                                                    </li>
+                                                        <li class="li_2">
+                                                            <input type="submit" id="btnSendText_V2" class="btnSendText floatRight" value="summarize">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <i id="noticeForText" style="color:#666; font-size:12px; clear:both; display:block; margin-top:-10px;"></i>
+                                                <p id="conteneurNoticeSizeText" class="DisplayNone" style="text-align:right; margin:0px; padding: 0 15px 0 0;">
+                                                    <span id="noticeSizeText" style="font-size:12px;">&nbsp;</span>
+                                                </p>
+                                            </div>
+
+
+                                        </div>
+                                    </fieldset>
+                                </form>
+                                <a href="#rightResoomer" class="page-scroll DisplayNone" id="goToResumer">&nbsp;</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 no-padding">
+                            <div class="about-us-right no-padding about-us-right-resoomer">
+                            	<div id="rightResoomer">
+                                	<div id="adsContent">
+                                        {% for i in text %}
+                                        <p id="summary" style="font-size:19px;border:1px solid black;">{{ i }}</p><br><br>{% endfor %}
+                                    	                                    </div>
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- End Of Hero Section -->
